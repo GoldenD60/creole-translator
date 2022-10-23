@@ -1,9 +1,18 @@
 * {
-	font-family: 'Roboto', 'Helvetica', cursive;
+	background: #070914;
+	font-family: 'Roboto', 'Helvetica', 'Comic Sans MS', cursive;
 	font-size: 32pt;
+	color: white;
+	text-shadow: 10px 10px 0px #00000066;
 }
 
 .--headers {
 	font-weight: bold;
 	font-size: 48pt;
+}
+
+#english, #creole {
+	border-width: 5px;
+	border-radius: 7.5px;
+	filter: drop-shadow(10px 10px 0px #00000066);
 }
