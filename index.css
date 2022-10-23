@@ -1,0 +1,9 @@
+* {
+	font-family: 'Roboto', 'Helvetica', cursive;
+	font-size: 32pt;
+}
+
+.--headers {
+	font-weight: bold;
+	font-size: 48pt;
+}
