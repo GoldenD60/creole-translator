@@ -1,18 +1,58 @@
 * {
-	background: #070914;
-	font-family: 'Roboto', 'Helvetica', 'Comic Sans MS', cursive;
-	font-size: 32pt;
+	background-color: #050505;
+	font-family: Roboto, sans-serif, cursive;
+	font-size: 50px;
 	color: white;
-	text-shadow: 10px 10px 0px #00000066;
-}
-
-.--headers {
-	font-weight: bold;
-	font-size: 48pt;
+	user-select: none;
 }
 
 #english, #creole {
-	border-width: 5px;
-	border-radius: 7.5px;
-	filter: drop-shadow(10px 10px 0px #00000066);
+	position: absolute;
+	padding: none;
+	border-width: .5vw;
+	border-radius: .5vw;
+	resize: none;
+	width: 30%;
+	height: 30%;
+	user-select: all;
+}
+
+#english {
+	left: 10%;
+}
+
+#creole {
+	right: 10%;
+}
+
+li, a {
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1vh 3vw;
+}
+
+.links {
+	list-style: none;
+}
+
+.links li {
+	display: inline-block;
+	padding: 0vh 3vh;
+}
+
+.links li a:hover {
+	color: grey;
+}
+
+.headers {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 0%;
 }

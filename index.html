@@ -2,49 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Creole Translator</title>
+    <title>Creole Translator - Translator</title>
     <script type="text/javascript" src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body onload='load()'>
-    <textarea id="english" oninput="updateCreole()"></textarea>
-    <textarea id="creole" oninput="updateEnglish()"></textarea>
+	<header>
+		<div class="logo">Creole Translator</div>
+		<nav>
+			<ul class="links">
+				<li><a href="./index.html">Translator</a></li>
+				<li><a href="#">Photo Explorer</a></li>
+			</ul>
+		</nav>
+	</header>
 
-    <p>
-    	<a class="--headers">Animals</a>
-    	<br>
-    	<ul>
-    		<li>Ant</li>
-			<li>Cockroach</li>
-			<li>Cockerel</li>
-			<li>Cat</li>
-			<li>Cow</li>
-			<li>Dog</li>
-			<li>Hen</li>
-			<li>Goat</li>
-			<li>Horse</li>
-			<li>Spider</li>
-			<li>Lizard</li>
-			<li>Moth</li>
-			<li>Butterfly</li>
-			<li>Snail</li>
-			<li>Pigeon</li>
-			<li>Mynah bird</li>
-			<li>Black parrot</li>
-			<li>Slug</li>
-			<li>Tortoise</li>
-			<li>Turtle</li>
-			<li>Bull</li>
-			<li>Shark</li>
-			<li>Duck</li>
-			<li>Turkey</li>
-			<li>Goose</li>
-			<li>Guinia fowl</li>
-			<li>Bat</li>
-			<li>Owl</li>
-			<li>Grass snake</li>
-			<li>Rat</li>
-    	</ul>
-	</p>
+    <ul class="headers">
+    	<li>English</li>
+    	<li>Creole</li>
+    </ul>
+    <textarea id="english" oninput="updateCreole()" for="englishLabel"></textarea>
+    <textarea id="creole" oninput="updateEnglish()" for="creoleLabel"></textarea>
 </body>
 </html>
